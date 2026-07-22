@@ -1,0 +1,43 @@
+openapi: 3.0.3
+info:
+  title: 待填写接口契约模板
+  version: 待填写
+  description: |
+    文档目的：记录后端、前端、OpenAPI 或 SDK 接口契约。
+    填写责任：后端负责人维护；前端、SDK、测试和安全负责人确认。
+    输入资料：PRD、技术设计、现有 Controller / Client / SDK 模型、权限和安全门禁。
+    必填内容：接口路径、方法、认证、权限、请求响应、错误码、幂等键、状态、金额币种、安全加密、兼容性。
+    当前状态：待填写。
+    待确认事项：待填写。
+    修改记录：在 x-change-log 中维护。
+    完成标准：契约确认后才允许前后端或 SDK 按契约开发。
+servers: []
+paths: {}
+components:
+  schemas: {}
+  securitySchemes: {}
+x-platform-checklist:
+  multiServiceImpact: 待确认
+  adminSystem: 待确认
+  merchantPortal: 待确认
+  hostedCheckout: 待确认
+  openapi: 待确认
+  sdk: 仅当对外接口或协议变化时适用
+  database: 待确认
+  redis: 待确认
+  rocketmq: 待确认
+  scheduledJob: 待确认
+  permissions: 待确认
+  amountCurrency: 待确认
+  transactionStatus: 待确认
+  idempotency: 待确认
+  channelRouting: 待确认
+  securitySensitiveData: 待确认
+  configuration: 待确认
+  dataMigration: 待确认
+  releaseRollback: 待确认
+x-change-log:
+  - date: 待填写
+    author: 待填写
+    change: 初始化模板
+    source: 待填写
