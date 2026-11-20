@@ -1,5 +1,7 @@
 # Codex 任务划分规范
 
+以下为 V1 任务划分。V2 通过 `$acquiring-delivery` 委派项目级 Agent，阶段、权限与交接遵循 [V2 需求生命周期](requirement-lifecycle.md)。
+
 ## 文档目的
 
 规定一个标准需求在 Codex 中如何拆分任务、读取仓库、修改仓库、产出交付物、使用子代理、使用 Worktree 和交接下一阶段。
