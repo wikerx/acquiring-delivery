@@ -1,7 +1,5 @@
 # 开发门禁
 
-阶段批准按 [V2 生命周期](../workflows/requirement-lifecycle.md) 执行。业务工程规则与任务验证入口见 [现行基线](../platform/current-baseline.md)。
-
 ## 需求分析阶段
 
 准入：
@@ -68,7 +66,8 @@
 准入：
 
 - 已确认 SDK 对外公共类、方法、字段和模型影响范围。
-- 根据 SDK 当前 POM 和发布契约核对 Java 目标、兼容边界和配置入口。当前核对版本使用 Java 17 与现有 P3C profile。
+- 已确认 SDK 保持 JDK 1.8 / Java 8 编译目标，以兼容更多商户服务端运行环境。
+- 已确认配置仍遵循 `merchant-config.properties` 方式。
 
 准出：
 

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Acquiring Delivery"
-  short_description: "在 Codex Desktop 创建交付需求、委派独立角色、逐阶段审批和追踪证据"
-  default_prompt: "用 $acquiring-delivery 查看我提供的需求或创建一条交付记录。"

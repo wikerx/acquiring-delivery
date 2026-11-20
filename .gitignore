@@ -1,3 +1,1 @@
 .DS_Store
-# Real delivery records belong in a separate, private Git ledger.
-/requirements/REQ-*/
