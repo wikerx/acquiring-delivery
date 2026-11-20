@@ -1,7 +1,5 @@
 # 工作流总览
 
-V2 从 [Desktop 使用说明](../README.md) 开始，阶段及审批规则见 [V2 需求生命周期](requirement-lifecycle.md)。以下为 V1 工作流总览，保留用于追溯。
-
 ## 文档目的
 
 串联 Acquiring Platform 需求接收、确认、设计、开发、测试、审查、发布和关闭流程，说明人工确认、Codex 执行边界、并行和串行规则。
