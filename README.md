@@ -16,7 +16,7 @@
 | 驳回并限定修订 | `驳回 REQ-014/04/r1，回开发修复 BUG-001，范围仅该缺陷` |
 | 记录相应决定 | `$acquiring-delivery 查看 REQ-014 的审批依据和 BUG-001 回归结果` |
 
-Codex 负责创建文件、提交私有台账和恢复状态。阶段审批在聊天中完成。首次使用、项目目录访问和目标 Worktree 权限依 Desktop 当前设置确认。缺少独立角色能力时，Skill 报告阻塞并保留阶段状态。
+Codex 负责创建文件、提交私有台账和恢复状态。阶段审批在聊天中完成。首次使用、项目目录访问和目标 Worktree 权限依 Desktop 当前设置确认。默认工作区权限可能保护台账的 `.git`。遇到保护提示时，按 Desktop 提示核准本次私有台账的锁和 Git 写入操作，见 [台账协议](.agents/skills/acquiring-delivery/references/ledger.md#一次状态更新)。缺少独立角色能力时，Skill 报告阻塞并保留阶段状态。
 
 ## 规则与模板
 
